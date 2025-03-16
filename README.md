@@ -18,15 +18,15 @@ Usage
 protected ReadOnly<T> _CachedValue { get { /* if dirty re calnculate value.} }
 
 protected bool _dirty;
-		protected virtual bool _Dirty {
-			get {
-				return _dirty;
-			}
-			set {
-				if (value) {
-					_dirty = true;
-				}
-				_dirty = false;
-			}
-		}
+protected virtual bool _Dirty {
+  get {
+    return _dirty;
+  }
+  set {
+    if (value) {
+      _dirty = true;
+    }
+    _dirty = false;
+  }
+}
 ```
