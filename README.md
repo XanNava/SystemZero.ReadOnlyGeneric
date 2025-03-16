@@ -23,10 +23,7 @@ protected virtual bool _Dirty {
     return _dirty;
   }
   set {
-    if (value) {
-      _dirty = true;
-    }
-    _dirty = false;
+    _dirty = value;
   }
 }
 ```
