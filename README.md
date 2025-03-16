@@ -13,7 +13,7 @@ public struct ReadOnly<T> {
 }
 
 
-Usage
+//Usage
 
 protected ReadOnly<T> _CachedValue { get { /* if dirty re calnculate value.} }
 
